@@ -82,17 +82,22 @@ ruby export_fedora.rb --dryrun 10000
 
 ## Output Structure
 
+If the object had the PID aaa-object:12001, and it had two datastreams DS1 (an XML file) and DS2 (a PDF) then the export data would look like the following ...
+
 ```
 export_directory/
-  └── object_id
+  └── aaa-object
      └── 12
          └── 12001
+              └── aaa-object-12001_metadata.json
               └── datastreams
                   ├── DS1.xml
                   ├── DS1_metadata.json
-                  ├── DS2.bin
+                  ├── DS2.pdf
                   └── DS2_metadata.json
 ```
+
+The `_metadata.json` files contain the metadata associated with the object. The `aaa-object-12001_metadata.json` contains the object's metadata, as well as infomation about each of the datastreams, such as MIME type and the name of the datastreams filename when written to disk, eg. `DS2.pdf`.
 
 ## License
 
