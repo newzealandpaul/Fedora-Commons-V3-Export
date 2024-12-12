@@ -82,7 +82,7 @@ ruby export_fedora.rb --dryrun 10000
 
 ## Output Structure
 
-If the object had the PID aaa-object:12001, and it had two datastreams DS1 (an XML file) and DS2 (a PDF) then the export data would look like the following ...
+If the object had the PID `aaa-object:12001`, and it had two datastreams `DS1` (an XML file) and `DS2` (a PDF) then the export data would look like the following ...
 
 ```
 export_directory/
