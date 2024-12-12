@@ -1,0 +1,4 @@
+SECRETS.yml
+*.sqlite3
+.bundle/*
+vendor/

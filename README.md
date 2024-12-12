@@ -84,12 +84,14 @@ ruby export_fedora.rb --dryrun 10000
 
 ```
 export_directory/
-  └── object_id/
-      └── datastreams/
-          ├── DS1.xml
-          ├── DS1_metadata.json
-          ├── DS2.bin
-          └── DS2_metadata.json
+  └── object_id
+     └── 12
+         └── 12001
+              └── datastreams
+                  ├── DS1.xml
+                  ├── DS1_metadata.json
+                  ├── DS2.bin
+                  └── DS2_metadata.json
 ```
 
 ## License
