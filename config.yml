@@ -1,0 +1,6 @@
+base_dir: /tmp/export
+fedora_url: http://server/fedora
+sqlite_db: queue.sqlite3
+id_listing: "production_pids.txt"
+mime_types: mime.types
+test_object: abc-object:1234
